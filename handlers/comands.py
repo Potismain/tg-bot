@@ -133,4 +133,3 @@ async def process_dont_like_write_bots(message: Message, state: FSMContext):
     )
 
     await state.clear()
-

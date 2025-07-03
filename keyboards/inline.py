@@ -17,7 +17,6 @@ keyboard_swap = InlineKeyboardMarkup(
     ]
 )
 
-
 kb_start = InlineKeyboardMarkup(
     inline_keyboard= [
         [

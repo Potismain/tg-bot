@@ -1,6 +1,5 @@
 import sqlite3
 
-
 conn = sqlite3.connect('images.db')
 cursor = conn.cursor()
 cursor.execute('''

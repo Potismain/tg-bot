@@ -5,7 +5,6 @@ from aiogram import BaseMiddleware
 from aiogram.types import Message
 from collections import defaultdict
 
-
 class AntiFloodMiddleware(BaseMiddleware):
 
     def __init__(self, delay: float = 3.0):
