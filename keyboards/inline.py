@@ -26,3 +26,11 @@ kb_start = InlineKeyboardMarkup(
     ]
 )
 
+yes_no_keyboard = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Да",callback_data="yes"),
+            InlineKeyboardButton(text="Нет",callback_data="no")
+        ]
+    ]
+)
