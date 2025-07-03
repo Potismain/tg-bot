@@ -7,6 +7,7 @@ from handlers.callback import callback_router
 from Antiflood import AntiFloodMiddleware
 
 
+
 storage = MemoryStorage()
 
 bot = Bot(token=TOKEN)

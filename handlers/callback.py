@@ -21,6 +21,7 @@ async def page_callback(callback: CallbackQuery):
 
     await callback.answer()
 
+
 @callback_router.callback_query(F.data == "Нет")
 async def process_dont_like_write_bots(callback: CallbackQuery, state: FSMContext):
     await state.update_data(like_bots="no")

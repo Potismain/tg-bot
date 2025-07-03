@@ -12,6 +12,7 @@ cursor.execute('''
 ''')
 conn.commit()
 
+
 def add_image(filepath, caption):
     cursor.execute('INSERT INTO images (photo, caption) VALUES (?, ?)', (filepath, caption))
     conn.commit()

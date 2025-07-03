@@ -17,10 +17,10 @@ keyboard_swap = InlineKeyboardMarkup(
     ]
 )
 
+
 kb_start = InlineKeyboardMarkup(
     inline_keyboard= [
         [
-        InlineKeyboardButton(text="Контакты\nразработчика", callback_data="contact"),
         InlineKeyboardButton(text="Случайная игра", callback_data="random_game")
         ]
     ]
