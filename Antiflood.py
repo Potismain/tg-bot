@@ -7,7 +7,7 @@ from collections import defaultdict
 
 class AntiFloodMiddleware(BaseMiddleware):
 
-    def __init__(self, delay: float = 3.0):
+    def __init__(self, delay: float = 2.5):
         self.delay = delay
         self.last_time = defaultdict(lambda: 0)
 
